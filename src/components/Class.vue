@@ -29,7 +29,8 @@ import cs from './API/classes';
 		},
 		methods:{
 			setlocal(e){
-				localStorage.setItem('sky_book_csname',e);
+				let a=e.getAttribute('data-cs')
+				localStorage.setItem('sky_book_csname',a);
 
 			}
 		}

@@ -14,7 +14,7 @@
         </p>
 				
 			</div>
-			<div class="dtb-right" :style="{background:'url('+bookdetail.images.medium+') no-repeat center'}">
+			<div class="dtb-right" :style="{background:'url('+(bookdetail.images?bookdetail.images.medium:'')+') no-repeat center'}">
 				
 			</div>
 		</div>
