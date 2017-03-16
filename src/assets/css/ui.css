@@ -1,0 +1,71 @@
+html { font-size: 100px; }
+@media(min-width: 320px) { html { font-size: 100px; } }
+@media(min-width: 360px) { html { font-size: 112.5px; } }
+@media(min-width: 375px) { html { font-size: 117.2px; } }
+@media(min-width: 400px) { html { font-size: 125px; } }
+@media(min-width: 412px) { html { font-size: 128.7px; } }
+@media(min-width: 414px) { html { font-size: 129.3px; } }
+@media(min-width: 640px) { html { font-size: 200px; } }
+@media(min-width: 750px) { html { font-size: 234.3px; } }
+
+body{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size:.16rem;color:#333;}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas,caption,center, cite,code, dd, del, details, dfn, div, dl, dt, em,embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p,pre, q, ruby, s, samp, section,small, span, strike, strong,sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video{
+    margin:0;
+    padding:0;
+    border:0;
+    
+    vertical-align:baseline;
+    /*word-break:break-all;*/
+    word-wrap:break-word;
+}
+input{
+    white-space:nowrap;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:00 0px 1000px #fffinset;
+}
+*{
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul,li,ol{
+    list-style:none;
+}
+img{
+    border:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*html, body{
+    height:100%;
+}*/
+a{
+    text-decoration:none;
+    border:none;
+    outline:none;
+    tap-highlight-color: rgba(0,0,0,0);
+    focus-ring-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-focus-ring-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    -moz-focus-ring-color: rgba(0,0,0,0);
+}
+a:visited{
+    color: inherit;
+}
+input,button{
+    outline:none;
+}
+.ui-cl::after{
+    content:'';
+    width:0;
+    height:0;
+    display:block;
+    clear:both;
+}
+.ui-fl{float:left;}
+.ui-fr{float:right;}
+.ui-cl-scl::-webkit-scrollbar{
+    width:0;
+    height:0;
+}
