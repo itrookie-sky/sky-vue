@@ -62,7 +62,8 @@ export default {
 		},
 		getMore(){
 			let t=this;
-			t.acStart++;
+			t.acStart+=12;
+			console.log(t.acStart)
 			let obj = {
 				start:t.acStart,
 				tag:t.cs,
@@ -72,7 +73,7 @@ export default {
 			api.get(t,config.search,obj,function(resp){
 				
 				t.aClass=t.aClass.concat(resp.books);
-
+				
 			})
 		}
 
