@@ -1,4 +1,4 @@
-# vue2-study
+# 仿豆瓣图书
 
 > A Vue.js project
 
