@@ -17,7 +17,8 @@
     "iview": "^1.0.1",
     "vue": "^2.2.1",
     "vue-router": "^2.2.0",
-    "vue-strap": "^1.1.36"
+    "vue-strap": "^1.1.36",
+    "webpack-zepto": "^0.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

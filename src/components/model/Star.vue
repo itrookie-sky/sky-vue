@@ -14,7 +14,7 @@
 		methods:{
 			number:function(num){
 				
-				return  Math.floor(num/2)%5;
+				return  Math.floor(num/2)%6;
 			}
 		}
 	}
